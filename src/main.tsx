@@ -2,11 +2,12 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
-import './testEnv';
 
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <div style={{ color: "green", fontSize: "24px" }}>
+      ✅ Frontend is rendering!
+    </div>
   </StrictMode>
 );
