@@ -4,7 +4,7 @@ import { Calendar, Clock, Users, Trophy, CheckCircle, XCircle, ArrowLeft } from 
 import { Contest, Quiz, Entry } from '../types';
 import { contestAPI, quizAPI, entryAPI } from '../services/api';
 import { useAuth } from '../contexts/AuthContext';
-import PhonePeButton from "../components/payment/PhonePeButton";
+import PhonePeButton from "../components/Payment/PhonePeButton";
 import QuizModal from '../components/Quiz/QuizModal';
 import { toast } from 'react-hot-toast';
 import { format } from 'date-fns';
