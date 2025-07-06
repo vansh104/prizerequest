@@ -574,7 +574,7 @@ export const paymentAPI = {
           contest_id: contestId,
           amount,
           status: 'pending',
-          payment_method: 'paypal'
+          payment_method: 'phonepe'
         }
       ])
       .select()
